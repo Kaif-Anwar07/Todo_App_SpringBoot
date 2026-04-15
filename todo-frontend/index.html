@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Todo App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>✨ Todo App</h1>
+
+      <div class="input-box">
+        <input type="text" id="title" placeholder="Enter your task..." />
+        <button onclick="addTodo()">Add</button>
+      </div>
+
+      <ul id="todoList"></ul>
+
+      <div class="pagination">
+        <button onclick="prevPage()">⬅ Prev</button>
+        <span id="pageInfo"></span>
+        <button onclick="nextPage()">Next ➡</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

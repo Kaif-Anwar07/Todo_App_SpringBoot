@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
+}
+
+.container {
+  max-width: 500px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.input-box {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  width: 70%;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+.input-box button {
+  padding: 10px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 5px;
+  background: #00c9a7;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: white;
+  color: black;
+  margin: 10px 0;
+  padding: 12px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+li:hover {
+  transform: scale(1.03);
+}
+
+.todo-text {
+  font-weight: bold;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: green;
+}
+
+.pending {
+  color: red;
+}
+
+button {
+  margin-left: 5px;
+  padding: 5px 8px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:nth-child(2) {
+  background: #4caf50;
+  color: white;
+}
+
+button:nth-child(3) {
+  background: #ff9800;
+  color: white;
+}
+
+button:nth-child(4) {
+  background: #f44336;
+  color: white;
+}
+
+.pagination {
+  margin-top: 20px;
+}
+
+.pagination button {
+  padding: 8px 12px;
+  background: white;
+  color: black;
+  font-weight: bold;
+}
