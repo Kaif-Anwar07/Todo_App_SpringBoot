@@ -38,7 +38,17 @@ This application allows users to efficiently manage daily tasks with complete CR
 * Exception Handling
 * Swagger UI Documentation
 * API Response Wrapper
-* 
+
+## Swagger UI Documentation
+
+### Available REST APIs
+
+![Swagger Endpoints](images/swagger-endpoints.png)
+
+### DTO & Response Schemas
+
+![Swagger Schemas](images/swagger-schemas.png)
+
 
 #   Database
 
