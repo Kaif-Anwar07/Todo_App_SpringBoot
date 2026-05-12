@@ -5,15 +5,19 @@ This application allows users to efficiently manage daily tasks with complete CR
 
 ---
 
-##  Features
+## Features
 
-*  Add new todos
-*  View all todos (with pagination)
-*  Update existing todos
-*  Delete todos
-*  Mark todos as completed (using PATCH API)
-*  Server-side pagination
-*  Responsive and modern UI
+* Add new todos
+* View all todos (with pagination)
+* Update existing todos
+* Delete todos
+* Mark todos as completed
+* Server-side pagination
+* Swagger UI API documentation
+* Request & Response DTO architecture
+* Global exception handling
+* Standardized API responses
+* Responsive UI
 
 ---
 
@@ -29,9 +33,12 @@ This application allows users to efficiently manage daily tasks with complete CR
 
 * Spring Boot
 * REST APIs
-* DTO Pattern
+* Request & Response DTO Architecture
 * Validation
 * Exception Handling
+* Swagger UI Documentation
+* API Response Wrapper
+* 
 
 #   Database
 
@@ -44,8 +51,14 @@ This application allows users to efficiently manage daily tasks with complete CR
 Frontend (HTML/JS) → REST API → Spring Boot Backend → MySQL Database
 
 ---
+## Important Note
 
+Frontend is currently not fully synchronized with the latest backend APIs due to major backend refactoring and architectural improvements.
+Backend APIs and architecture have been significantly enhanced.
 
+### Swagger UI
+
+http://localhost:8787/swagger-ui/index.html
 
 ##  How to Run Locally
 
@@ -71,7 +84,10 @@ Frontend (HTML/JS) → REST API → Spring Boot Backend → MySQL Database
 
 * Implemented full **CRUD operations**
 * Used **PATCH method** for partial updates
-* Applied **DTO pattern & validation**
+* Implemented Request/Response DTO architecture
+* Added centralized exception handling
+* Integrated Swagger UI for API documentation
+* Implemented standardized API response structure
 * Implemented **server-side pagination**
 * Built **clean and responsive UI**
 * Followed **RESTful API design principles**
